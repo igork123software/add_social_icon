@@ -1,0 +1,30 @@
+{
+  "name": "YourApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "python2": "0.0.1",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.8",
+    "react-native-fbsdk": "^0.8.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.1.2",
+    "babel-core": "7.0.0-bridge.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3",
+    "babel-plugin-transform-inline-environment-variables": "0.4.3",
+    "babel-plugin-transform-react-jsx-source": "6.22.0",
+    "babel-preset-react-native": "5.0.2",
+    "babel-preset-react-native-stage-0": "1.0.1",
+    "babel-root-slash-import": "1.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
